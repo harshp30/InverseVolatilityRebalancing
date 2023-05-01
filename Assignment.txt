@@ -1,16 +1,16 @@
 Back-testing allows investors to evaluate the performances of proposed trading strategies over historical data. In this assignment, you will back-test a portfolio of five ETFs and determine its Sharpe ratio and CAGR over a given period of time.
-
+ 
 The Portfolio and Trading Strategy
--	The portfolio is made up of five ETFs, including SPY, VGK, EEM, GLD, and TLT. Their daily OHLC data are provided as CSV files.
--	The portfolio will be rebalanced monthly at the closing of the last market day using the Inverse Volatility method. The portfolio is always fully invested (allocations sum up to 100%). We will not consider transition costs in this assignment.
--	The goal is to calculate the Sharpe Ratio and CAGR of this portfolio between 2020-01-01 and 2022-12-31. The calculation of the Sharpe Ratio requires a risk-free rate, which can be taken as zero in this assignment.
+- The portfolio is made up of five ETFs, including SPY, VGK, EEM, GLD, and TLT. Their daily OHLC data are provided as CSV files.
+- The portfolio will be rebalanced monthly at the closing of the last market day using the Inverse Volatility method. The portfolio is always fully invested (allocations sum up to 100%). We will not consider transition costs in this assignment.
+- The goal is to calculate the Sharpe Ratio and CAGR of this portfolio between 2020-01-01 and 2022-12-31. The calculation of the Sharpe Ratio requires a risk-free rate, which can be taken as zero in this assignment.
 
 Note
--	The Inverse Volatility method uses risk to determine allocations across various components of the portfolio. The allocation of a component is inversely promotional to its risk, so each component would contribute the same amount of risk after rebalancing. The risk of a component can be estimated as the standard deviation of its daily return over the past month.
--	All dividends will be immediately re-invested to the same position. Hence you will need to mark-to-market at the adjusted close of each day to determine the daily return of the portfolio.
-
+- The Inverse Volatility method uses risk to determine allocations across various components of the portfolio. The allocation of a component is inversely promotional to its risk, so each component would contribute the same amount of risk after rebalancing. The risk of a component can be estimated as the standard deviation of its daily return over the past month.
+- All dividends will be immediately re-invested to the same position. Hence you will need to mark-to-market at the adjusted close of each day to determine the daily return of the portfolio.
+ 
 Deliverables
--	Python code with comments and a markdown file for documentation.
--	A plot of the portfolio value over time, assuming the initial value is 100 at the first rebalancing.
--	A CSV file that summarizes the rebalancing dates and the corresponding allocations.
--	All deliverables should be uploaded to a GitHub repository.
+- Python code with comments and a markdown file for documentation.
+- A plot of the portfolio value over time, assuming the initial value is 100 at the first rebalancing.
+- A CSV file that summarizes the rebalancing dates and the corresponding allocations.
+- All deliverables should be uploaded to a GitHub repository.
