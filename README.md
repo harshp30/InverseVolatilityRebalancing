@@ -24,7 +24,7 @@ As per the assignments deliverables requirements, there are a few outputs which 
 
         ![Portfolio Value Graph](output/portfolio_value.png)
 
-- Rebalancing and Allocations CSV -- [portfolio_allocations.png](https://github.com/harshp30/PredictNowAIAssignment/blob/main/output/portfolio_allocations.png)
+- Rebalancing and Allocations CSV -- [portfolio_allocations.csv](https://github.com/harshp30/PredictNowAIAssignment/blob/main/output/portfolio_allocations.csv)
     - This cvs file contains the data for the allocation weights and date for each rebalancing period
     - The allocation weights sum to 1 (100%)
 
