@@ -2,5 +2,6 @@ Starting Portfolio Value $ 100.0
 Ending Portfolio Value $ 105.38
 Max Portfolio Value $ 126.81
 Min Portfolio Value $ 79.98
-Sharpe Ratio: 0.011962677596691385
-Compound Annual Growth Rate (CAGR): 0.017659856151240882
+Cumulative Return: 0.14603887463935742
+Sharpe Ratio: 1.781962204000697
+Difference: 0.234
