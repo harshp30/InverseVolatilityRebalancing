@@ -1,6 +1,4 @@
-# PredictNow.ai Assignment
-
-**Backtesting a portfolio of five ETFs using Inverse Volatility Method**
+*Backtesting a portfolio of five ETFs using Inverse Volatility Method*
 
 ---
 
